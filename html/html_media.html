@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+        <svg viewBox="0 0 1280 200" 
+             xmlns="http://www.w3.org/2000/svg"> 
+  
+             <filter id="geek1" x="0" y="0" 
+                width="100%" height="100%"> 
+                <feDiffuseLighting in="SourceGraphic" 
+                  lighting-color="green"> 
+                  <fePointLight x="100" y="100" z="10"/> 
+                </feDiffuseLighting> 
+              </filter> 
+  
+              <rect width="200" height="200" 
+                    style="filter: url(#geek1);"/> 
+          </svg> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TuUVVKVdZm4?si=M2hHw8azPF7UhYou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <h3>HTML video tag</h3>
+        <p>Adding video on the webpage
+        <p>
+          <video width="750" height="450" 
+          controls preload="auto">
+            <source src="common/1.mp4" 
+                    type="video/mp4">
+          </video>
+      </center>
+</body>
+</html>
