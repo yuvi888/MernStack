@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    /* background:linear-gradient(140deg, rgb(21, 21, 21) 50%, rgb(39, 39, 39),rgb(92, 90, 90)); */
+    background-color: black;
+}
+header{
+    margin: 30px 0 0 0;
+    background-color: rgb(138, 25, 25);
+    
+}
+nav {
+    backdrop-filter: blur(100px); /* Apply the blur effect */
+    background-color: rgba(63, 63, 63, 0.716); /* Dark semi-transparent background (black with some transparency) */
+    padding: 10px 20px; /* Padding inside the navbar */
+    border-radius: 15px; /* Rounded corners for the navbar */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  */
+    position: relative; /* Ensure the navbar is positioned above content */
+    z-index: 1; /* Ensure the navbar stays on top of other content */
+   
+}
+
+
+header div nav a {
+    font-weight: bolder; /* Set font weight for links */
+    font-size: 14px; /* Adjust the font size */
+   
+   
+}
+
+.icon-text-group span {
+    font-family: 'Roboto', sans-serif; /* Apply the custom font family to text */
+    font-size: 14px; /* Text font size */
+    margin: 5%;
+}
+
+/* Optional: Style when hovering over the text */
+.icon-text-group:hover span , .icon-text-group:hover i {
+    color: #007bff; /* Change color on hover */
+}
+
